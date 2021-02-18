@@ -1,5 +1,7 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2018-2021 The LineageOS Project#
+# Copyright (C) 2021 AOSPK
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +16,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_star2qltechn.mk
+    $(LOCAL_DIR)/aosp_star2qltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_star2qltechn-user \
-	lineage_star2qltechn-userdebug \
-	lineage_star2qltechn-eng
+	aosp_star2qltechn-user \
+	aosp_star2qltechn-userdebug \
+	aosp_star2qltechn-eng
