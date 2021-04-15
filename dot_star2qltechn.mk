@@ -22,11 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from star2qltechn device
 $(call inherit-product, device/samsung/star2qltechn/device.mk)
 
-# Inherit some common AOSPK stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common DotOS stuff
+$(call inherit-product, vendor/dot/config/common.mk)
+
+# DotOS Official
+DOT_OFFICIAL := true
 
 # Device identifier
-PRODUCT_NAME := aosp_star2qltechn
+PRODUCT_NAME := dot_star2qltechn
 PRODUCT_DEVICE := star2qltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G9650

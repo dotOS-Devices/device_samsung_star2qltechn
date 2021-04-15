@@ -16,9 +16,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_star2qltechn.mk
+    $(LOCAL_DIR)/dot_star2qltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_star2qltechn-user \
-	aosp_star2qltechn-userdebug \
-	aosp_star2qltechn-eng
+	dot_star2qltechn-user \
+	dot_star2qltechn-userdebug \
+	dot_star2qltechn-eng
